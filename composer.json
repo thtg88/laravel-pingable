@@ -48,6 +48,11 @@
                 "vendor/bin/php-cs-fixer fix --using-cache=no --diff --dry-run"
             ],
             "pre-push": []
+        },
+        "laravel": {
+            "providers": [
+                "Thtg88\\Pingable\\PingableServiceProvider"
+            ],
         }
     },
     "scripts": {
