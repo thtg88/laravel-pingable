@@ -2,10 +2,9 @@
 
 namespace Thtg88\Pingable;
 
-use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 
-class PingableServiceProvider extends ServiceProvider // implements DeferrableProvider
+class PingableServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any package services.
