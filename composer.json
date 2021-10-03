@@ -52,7 +52,7 @@
         "laravel": {
             "providers": [
                 "Thtg88\\Pingable\\PingableServiceProvider"
-            ],
+            ]
         }
     },
     "scripts": {
