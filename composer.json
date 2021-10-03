@@ -12,7 +12,6 @@
     "require": {
         "php": "^8.0",
         "illuminate/config": "^8.62",
-        "illuminate/contracts": "^8.62",
         "illuminate/http": "^8.62",
         "illuminate/routing": "^8.62",
         "illuminate/support": "^8.62"
