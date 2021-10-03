@@ -11,7 +11,7 @@ return [
 
     'route' => [
         'method' => 'get',
-        'name' => 'pingable.ping',
         'path' => 'api/ping',
+        'name' => 'pingable.api.ping',
     ],
 ];
