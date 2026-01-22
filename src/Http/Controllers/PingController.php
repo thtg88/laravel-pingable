@@ -6,6 +6,10 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Config;
 
+/**
+ * @psalm-suppress UnusedClass
+ * @psalm-suppress ClassMustBeFinal
+ */
 class PingController extends Controller
 {
     /**

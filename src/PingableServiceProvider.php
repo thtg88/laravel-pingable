@@ -4,7 +4,10 @@ namespace Thtg88\Pingable;
 
 use Illuminate\Support\ServiceProvider;
 
-class PingableServiceProvider extends ServiceProvider
+/**
+ * @psalm-suppress UnusedClass
+ */
+final class PingableServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any package services.
@@ -25,6 +28,7 @@ class PingableServiceProvider extends ServiceProvider
      *
      * @return void
      */
+    #[\Override]
     public function register()
     {
         $this->mergeConfigFrom(__DIR__ . '/../config/pingable.php', 'pingable');
